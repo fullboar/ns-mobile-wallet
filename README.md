@@ -19,7 +19,7 @@ somewhere on the internet.)
 5. Follow the steps in the [Developer Guide](DEVELOPER.md)
 
 # Overall Architecture
-How BC Wallet Mobile App fits in a larger picture?
+How NS Wallet Mobile App fits in a larger picture?
 
 ![](<./docs/BCWallet_Architecture.png>)
 

@@ -30,13 +30,13 @@ const translation = {
   "CameraDisclosure": {
     "AllowCameraUse": "Autoriser l'utilisation de la caméra",
     "CameraDisclosure": "La caméra est utilisée pour scanner les codes QR pour un traitement immédiat sur l'appareil. Aucune information sur les images n'est conservé, utilisée à des fins d'analyse ou partagée.",
-    "ToContinueUsing": "Pour continuer à utiliser la fonction de scan de BC Wallet, veuillez activer les autorisations de la caméra.",
+    "ToContinueUsing": "Pour continuer à utiliser la fonction de scan de NS Wallet, veuillez activer les autorisations de la caméra.",
     "Allow": "Autoriser",
     "OpenSettings": "Ouvrir les paramètres",
   },
   "Biometry": {
     "Toggle": "Activer/Désactiver la biométrie",
-    "EnabledText1": "Connectez-vous avec les données biométriques de votre téléphone plutôt que votre code PIN BC Wallet.",
+    "EnabledText1": "Connectez-vous avec les données biométriques de votre téléphone plutôt que votre code PIN NS Wallet.",
     "EnabledText1Bold": "vous allez devoir utiliser vos données biométriques pour accéder à votre portefeuille numérique.",
     "EnabledText2": "Cela signifie que toutes les empreintes digitales et données faciales ajoutées sur ce téléphone peuvent être utilisées pour accéder à votre portefeuille numérique.",
     "EnabledText3": "N'importe quelle personne qui a accès à votre téléphone en utilisant la biométrie peut accéder à votre portefeuille.",
@@ -51,7 +51,7 @@ const translation = {
   },
   "Onboarding": {
     "DifferentWalletHeading": "Un portefeuille intelligent unique",
-    "DifferentWalletParagraph": "Contrairement aux autres portefeuilles numériques, BC Wallet vous aide à prouver votre identité en personne ou en ligne en stockant et en utilisant des informations d'identification numériques émises par les services participants.\n\nInteragissez en toute confiance avec les personnes et les organisations en qui vous avez confiance.",
+    "DifferentWalletParagraph": "Contrairement aux autres portefeuilles numériques, NS Wallet vous aide à prouver votre identité en personne ou en ligne en stockant et en utilisant des informations d'identification numériques émises par les services participants.\n\nInteragissez en toute confiance avec les personnes et les organisations en qui vous avez confiance.",
     "DigitalCredentialsHeading": "Identifiants",
     "DigitalCredentialsParagraph": "Les titres numériques sont l'équivalent électronique des titres physiques tels que les certifications et les permis proposés par les services participants.\n\nLes services sont simplifiés et accélérés car les organisations et les individus peuvent confirmer leur identité à l'aide d'informations fiables provenant de titres numériques.",
     "PrivateConfidentialHeading": "Privé et confidentiel",
@@ -59,16 +59,16 @@ const translation = {
     "GetStarted": "Commencer",
   },
   "Preface": {
-    "Paragraph1": "La plupart des gens n'auront pas besoin de BC Wallet car très peu de titres numériques sont actuellement disponibles.",
-    "Link1": "Voir où vous pouvez utiliser BC Wallet",
-    "Paragraph2": "Si BC Wallet ne correspond pas à ce que vous recherchez, mais que vous êtes curieux, consultez notre rubrique",
-    "Link2": "Présentation de BC Wallet",
+    "Paragraph1": "La plupart des gens n'auront pas besoin de NS Wallet car très peu de titres numériques sont actuellement disponibles.",
+    "Link1": "Voir où vous pouvez utiliser NS Wallet",
+    "Paragraph2": "Si NS Wallet ne correspond pas à ce que vous recherchez, mais que vous êtes curieux, consultez notre rubrique",
+    "Link2": "Présentation de NS Wallet",
   },
   "Screens": {
-    "Onboarding": "BC Wallet",
+    "Onboarding": "NS Wallet",
     "Terms": "Conditions générales d'utilisation",
     "Settings": "Menu",
-    "Preface": "BC Wallet",
+    "Preface": "NS Wallet",
     "VerificationSteps": "Setup steps (FR)",
     "EvidenceCollectionStep": {
       "Stage1": "Choose your identification (FR)",
@@ -90,11 +90,11 @@ const translation = {
   
   "NetInfo": {
     "NoInternetConnectionTitle": "Aucune connection internet",
-    "NoInternetConnectionMessage": "Vous ne pouvez pas accéder aux services en utilisant BC Wallet ou recevoir des informations d'identification jusqu'à ce que vous soyez de nouveau en ligne.\n\nVeuillez vérifier votre connexion internet.",
+    "NoInternetConnectionMessage": "Vous ne pouvez pas accéder aux services en utilisant NS Wallet ou recevoir des informations d'identification jusqu'à ce que vous soyez de nouveau en ligne.\n\nVeuillez vérifier votre connexion internet.",
   },
   "Tour": {
-    "GuideTitle": "Bienvenue sur BC Wallet",
-    "WouldYouLike": "Souhaitez vous obtenir des conseils sur l'utilisation de BC Wallet ?",
+    "GuideTitle": "Bienvenue sur NS Wallet",
+    "WouldYouLike": "Souhaitez vous obtenir des conseils sur l'utilisation de NS Wallet ?",
     "UseAppGuides": "Utiliser les guides de l'application",
     "DoNotUseAppGuides": "Ne pas utiliser les guides de l'application",
     "AddAndShare": "Ajouter et partager des identifiants",
@@ -117,8 +117,8 @@ const translation = {
   "Settings": {
     "Help": "Aide",
     "MoreInformation": "Plus d'informations",
-    "PlayWithBCWallet": "Jouer avec BC Wallet",
-    "HelpUsingBCWallet": "Aide à l'utilisation de BC Wallet",
+    "PlayWithBCWallet": "Jouer avec NS Wallet",
+    "HelpUsingBCWallet": "Aide à l'utilisation de NS Wallet",
     "GiveFeedback": "Donner votre avis",
     "ReportAProblem": "Signaler un problème",
     "TermsOfUse": "Conditions d'utilisation",
@@ -141,7 +141,7 @@ const translation = {
   "Tips": {
     "Header": "Conseils",
     "GettingReady": "Préparation de votre portefeuille en cours...",
-    "Tip1": "Pour plus de sécurité, BC Wallet verrouille l'application après 5 minutes d'inactivité.",
+    "Tip1": "Pour plus de sécurité, NS Wallet verrouille l'application après 5 minutes d'inactivité.",
     "Tip2": "Contrairement à la présentation de cartes physiques, vous partagez uniquement ce qui est nécessaire à partir de vos identifiants.",
     "Tip3": "Vos identifiants sont stockés uniquement sur ce téléphone, nulle part ailleurs.",
     "Tip4": "Les informations sont envoyées et reçues via une connexion chiffrée et non traçable.",
@@ -169,17 +169,17 @@ const translation = {
     "GiveFeedback": "Donner votre avis",
   },
   "PushNotifications": {
-    "NotificationsOffTitle": "Les notifications pour BC Wallet sont désactivées",
+    "NotificationsOffTitle": "Les notifications pour NS Wallet sont désactivées",
   },
   "AddCredentialSlider": {
     "Choose": "Choisir",
     "ScanQRCode": "Scanner un code QR",
   },
   "Scan": {
-    "ScanOnySpecial": "Seuls les codes QR spéciaux peuvent être scannés par BC Wallet.",
-    "ScanOnlySpecial3": "BC Wallet ne prend actuellement pas en charge l'ajout de justificatifs numériques en scannant ou en prenant des photos de justificatifs physiques.",
-    "WhereToUseLink": "Voyez où vous pouvez utiliser BC Wallet.",
-    "BadQRCodeDescription": "Le code QR scanné ne fonctionne pas avec BC Wallet. BC Wallet ne fonctionne qu'avec les services participants.\n\nIl ne peut actuellement pas ajouter de justificatifs numériques en prenant des photos de justificatifs physiques."
+    "ScanOnySpecial": "Seuls les codes QR spéciaux peuvent être scannés par NS Wallet.",
+    "ScanOnlySpecial3": "NS Wallet ne prend actuellement pas en charge l'ajout de justificatifs numériques en scannant ou en prenant des photos de justificatifs physiques.",
+    "WhereToUseLink": "Voyez où vous pouvez utiliser NS Wallet.",
+    "BadQRCodeDescription": "Le code QR scanné ne fonctionne pas avec NS Wallet. NS Wallet ne fonctionne qu'avec les services participants.\n\nIl ne peut actuellement pas ajouter de justificatifs numériques en prenant des photos de justificatifs physiques."
   },
   "Unified": {
     "Steps": {

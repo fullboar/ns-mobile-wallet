@@ -2,7 +2,7 @@
 name: "Bug report"
 about: Create a report to help us improve
 ---
-<!-- Thank you for reporting a bug in BC Wallet. Please fill in as much of the template below as you can. -->
+<!-- Thank you for reporting a bug in NS Wallet. Please fill in as much of the template below as you can. -->
 
 ### Description of problem
 

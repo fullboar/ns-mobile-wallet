@@ -11,7 +11,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>ca.bc.gov.BCWallet</key>
-		<string>BC Wallet - Development Jason</string>
+		<string>NS Wallet - Development Jason</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>67D6BA0FEC3E43792AABC24ED686303A9E3BB23F</string>

@@ -96,26 +96,26 @@ const Terms = () => {
           <InfoBox
             notificationType={InfoBoxType.Info}
             description={
-              'BC Wallet has updated the end user license agreement. To continue using BC Wallet, please review and accept the updated terms.'
+              'NS Wallet has updated the end user license agreement. To continue using NS Wallet, please review and accept the updated terms.'
             }
             title={'Terms of use update'}
           ></InfoBox>
         )}
         <Text style={[style.bodyText, { marginTop: 20 }]}>
           This End User License Agreement (“EULA”) is a legal agreement between you, as the end user of the BC Wallet
-          Application (“You” or “you”), and His Majesty the King in Right of the Province of British Columbia (the
+          Application (“You” or “you”), and His Majesty the King in Right of the Province of Nova Scotia (the
           “Province”). This EULA sets out the terms and conditions that apply to you when you download and/or use the BC
-          Wallet App (“BC Wallet”). BC Wallet allows you to both (a) store your digital credentials, which are proof of
+          Wallet App (“NS Wallet”). NS Wallet allows you to both (a) store your digital credentials, which are proof of
           qualification, affiliation, competence, or clearance issued by the Province or third party issuers that you
           can present to another party who needs to verify those credentials; and (b) verify the digital credentials of
-          another user of BC Wallet or similar credential storage application. You may access BC Wallet on either the
+          another user of NS Wallet or similar credential storage application. You may access NS Wallet on either the
           Google Play Store or the Apple App Store. Some of the terms that follow reference Google or Apple, as
-          applicable, and such references will apply only to the extent that you have accessed and downloaded BC Wallet
+          applicable, and such references will apply only to the extent that you have accessed and downloaded NS Wallet
           to your mobile device through that particular platform.
         </Text>
         <Text style={[style.bodyText, TextTheme.bold, { marginTop: 20 }]}>EULA Terms</Text>
         <Text style={[style.bodyText, { marginTop: 20 }]}>
-          By indicating that you agree to this EULA, and in consideration of the use of BC Wallet, you agree to the
+          By indicating that you agree to this EULA, and in consideration of the use of NS Wallet, you agree to the
           following.
         </Text>
         <View style={style.paragraph}>
@@ -124,7 +124,7 @@ const Terms = () => {
             <Text style={style.titleText}>Parties.</Text>
             &nbsp;The parties to this EULA are you and the Province (collectively, the “Parties”). The Parties
             acknowledge that: (a) this EULA is concluded between the Parties only, and not with Apple Inc. (“Apple”);
-            and (b) the Province, not Apple, is solely responsible for BC Wallet.
+            and (b) the Province, not Apple, is solely responsible for NS Wallet.
           </Text>
         </View>
 
@@ -132,11 +132,11 @@ const Terms = () => {
           <Text style={style.enumeration}>2</Text>
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Ability to Accept EULA.</Text>
-            &nbsp;To accept the terms and conditions of this EULA and to download and/or use BC Wallet, you must be, and
+            &nbsp;To accept the terms and conditions of this EULA and to download and/or use NS Wallet, you must be, and
             you represent and warrant that you are: (a) at least nineteen (19) years of age; or (b) if you are under 19,
             you have obtained the consent of your parent or guardian to accept this EULA on your behalf, in which case
-            your parent or guardian is responsible for your use of BC Wallet. If you have not met these requirements,
-            you must not access or use BC Wallet.
+            your parent or guardian is responsible for your use of NS Wallet. If you have not met these requirements,
+            you must not access or use NS Wallet.
           </Text>
         </View>
 
@@ -144,7 +144,7 @@ const Terms = () => {
           <Text style={style.enumeration}>3</Text>
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Device Protection.</Text>
-            &nbsp;You are responsible for the security of any device you use in connection with BC Wallet, including
+            &nbsp;You are responsible for the security of any device you use in connection with NS Wallet, including
             without limitation for using appropriate device protection (e.g., a complex password/passcode or biometric
             information) and for keeping your device protection confidential, as well as for using appropriate security
             protections (e.g., using up to date anti-virus/anti-spyware software and up to date operating system
@@ -156,14 +156,14 @@ const Terms = () => {
           <Text style={style.enumeration}>4</Text>
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Access to Application.</Text>
-            &nbsp;You must not allow any other individual or entity to access or use BC Wallet on your behalf.
+            &nbsp;You must not allow any other individual or entity to access or use NS Wallet on your behalf.
           </Text>
         </View>
         <View style={style.paragraph}>
           <Text style={style.enumeration}>5</Text>
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Application Ownership.</Text>
-            &nbsp;BC Wallet, including without limitation trademarks, trade names, logos, domain names, images,
+            &nbsp;NS Wallet, including without limitation trademarks, trade names, logos, domain names, images,
             graphics, graphical user interface elements and designs, in any form or medium whatsoever, are owned by the
             Province or its licensors and are protected by copyright, patent, trademark and other laws protecting
             intellectual property rights.
@@ -175,12 +175,12 @@ const Terms = () => {
             <Text style={style.titleText}>Ownership.</Text>
             &nbsp;Digital credentials are owned by the party identified in the agreement between the issuer and the
             holder concerning the credential. Any other information and works stored, made available, displayed or
-            transmitted by you in connection with BC Wallet, including any information relating to credentials you have
+            transmitted by you in connection with NS Wallet, including any information relating to credentials you have
             verified (collectively, “Content”) are, between the Province and you, owned by you and are protected by
             copyright, patent, trademark and other laws protecting intellectual property rights. Subject to this EULA,
             you grant the Province a limited license to access, use, process, copy, distribute, perform, and display
             your Content (including reformatting and modification for display) solely to the extent necessary to provide
-            BC Wallet to you. You are solely responsible for the accuracy, content and legality of your Content and you
+            NS Wallet to you. You are solely responsible for the accuracy, content and legality of your Content and you
             represent and warrant that you have all necessary intellectual property rights to grant the Province this
             limited license to use your Content. The Province has no obligation to monitor your Content.
           </Text>
@@ -200,7 +200,7 @@ const Terms = () => {
           <Text style={style.bodyText}>
             <Text style={style.titleText}>License.</Text>
             &nbsp;The Province hereby grants to you a non-exclusive, royalty-free, non-transferable and, subject to
-            section 9 of this EULA, perpetual license to perform, use and display BC Wallet on either Google or Apple
+            section 9 of this EULA, perpetual license to perform, use and display NS Wallet on either Google or Apple
             branded products, provided that usage on any Apple branded products must be products that you either own or
             control and as permitted by the Usage Rules set forth in the Apple Media Services Terms and Conditions
             located at{'\n'}
@@ -211,14 +211,14 @@ const Terms = () => {
             (or such other URL as Apple may designate) (the “App Store Terms”), as may be modified by Apple from time to
             time (the “License”). Except as provided in the App Store Terms (which does permit Licensed Applications to
             be accessed, acquired, and used by other accounts associated with the purchaser via Family Sharing or volume
-            purchasing), you may not distribute or make BC Wallet available over a network where it could be used by
+            purchasing), you may not distribute or make NS Wallet available over a network where it could be used by
             multiple devices at the same time. If you sell your Apple branded product to a third party, you must first
-            remove BC Wallet from that Apple branded product. For greater certainty, you may not: (a) transfer,
-            redistribute or sublicense BC Wallet; or (b) copy (except as permitted by this License and the Usage Rules),
+            remove NS Wallet from that Apple branded product. For greater certainty, you may not: (a) transfer,
+            redistribute or sublicense NS Wallet; or (b) copy (except as permitted by this License and the Usage Rules),
             reverse-engineer, disassemble, attempt to derive the source code of, modify, or create derivative works of
-            BC Wallet, any updates, upgrades or any part of BC Wallet (except as and only to the extent that any
+            NS Wallet, any updates, upgrades or any part of NS Wallet (except as and only to the extent that any
             foregoing restriction is prohibited by applicable law or to the extent as may be permitted by the licensing
-            terms governing use of any open-sourced components included with BC Wallet).
+            terms governing use of any open-sourced components included with NS Wallet).
           </Text>
         </View>
         <View style={style.paragraph}>
@@ -228,8 +228,8 @@ const Terms = () => {
             &nbsp;The License will terminate automatically in the event that you fail to comply with any of the terms
             and conditions of this EULA or if any of your representations or warranties are or become inaccurate or
             untruthful. The Province also reserves the right to terminate this License for any reason, in its sole
-            discretion. In the event of termination of this License you must: (a) immediately stop using BC Wallet; and
-            (b) delete or destroy all copies of BC Wallet in your possession or under your control.
+            discretion. In the event of termination of this License you must: (a) immediately stop using NS Wallet; and
+            (b) delete or destroy all copies of NS Wallet in your possession or under your control.
           </Text>
         </View>
 
@@ -243,20 +243,20 @@ const Terms = () => {
           >
             <Text style={style.bodyText}>
               <Text style={style.titleText}>Acceptable Use.</Text>
-              &nbsp;You must not take any action in connection with your use of BC Wallet that would jeopardize the
-              security, integrity and/or availability of BC Wallet, including, without limitation:
+              &nbsp;You must not take any action in connection with your use of NS Wallet that would jeopardize the
+              security, integrity and/or availability of NS Wallet, including, without limitation:
             </Text>
 
             <Text style={[style.bodyText, { marginTop: 10 }]}>
               (a) using the Licensed Application for any unlawful or inappropriate purpose;
             </Text>
-            <Text style={[style.bodyText, { marginTop: 10 }]}>(b) tampering with any portion of BC Wallet;</Text>
+            <Text style={[style.bodyText, { marginTop: 10 }]}>(b) tampering with any portion of NS Wallet;</Text>
             <Text style={[style.bodyText, { marginTop: 10 }]}>
-              (c) using BC Wallet to transmit any virus or other harmful or destructive computer code, files or programs
+              (c) using NS Wallet to transmit any virus or other harmful or destructive computer code, files or programs
               or to conduct hacking and/or intrusion activities;
             </Text>
             <Text style={[style.bodyText, { marginTop: 10 }]}>
-              (d) attempting to circumvent or subvert any security measure associated with BC Wallet;
+              (d) attempting to circumvent or subvert any security measure associated with NS Wallet;
             </Text>
             <Text style={[style.bodyText, { marginTop: 10 }]}>
               (e) taking any action that might reasonably be construed as likely to adversely affect other users of BC
@@ -264,7 +264,7 @@ const Terms = () => {
             </Text>
             <Text style={[style.bodyText, { marginTop: 10 }]}>
               (f) removing or altering any proprietary symbol or notice, including any copyright notice, trademark or
-              logo, displayed in connection with BC Wallet.
+              logo, displayed in connection with NS Wallet.
             </Text>
           </View>
         </View>
@@ -273,11 +273,11 @@ const Terms = () => {
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Maintenance and Support.</Text>
             &nbsp;The Parties acknowledge that: (a) the Province may, in its sole discretion, provide maintenance and
-            support of BC Wallet, including troubleshooting, updates and modifications (the “Support Services”); (b) the
+            support of NS Wallet, including troubleshooting, updates and modifications (the “Support Services”); (b) the
             Province is solely responsible for the provision of Support Services, if any; and (c) Apple has no
-            obligation whatsoever to furnish any maintenance and support services with respect to BC Wallet. All
-            questions respecting the Support Services, and all general inquiries respecting BC Wallet, should be
-            directed to: Product Owner, BC Wallet, ditrust@gov.bc.ca, 4000 Seymour Place, Victoria, BC, V8W 9V1.
+            obligation whatsoever to furnish any maintenance and support services with respect to NS Wallet. All
+            questions respecting the Support Services, and all general inquiries respecting NS Wallet, should be
+            directed to: Product Owner, NS Wallet, ditrust@gov.bc.ca, 4000 Seymour Place, Victoria, BC, V8W 9V1.
           </Text>
         </View>
         <View style={style.paragraph}>
@@ -290,23 +290,23 @@ const Terms = () => {
           >
             <Text style={style.bodyText}>
               <Text style={style.titleText}>Disclaimer of Warranty.</Text>
-              &nbsp;BC Wallet is provided to you “as is” and the Province disclaims all representations, warranties,
-              conditions, obligations and liabilities of any kind, whether express or implied, in relation to BC Wallet,
+              &nbsp;NS Wallet is provided to you “as is” and the Province disclaims all representations, warranties,
+              conditions, obligations and liabilities of any kind, whether express or implied, in relation to NS Wallet,
               including without limitation implied warranties with respect to merchantability, satisfactory quality,
               fitness for a particular purpose and non-infringement. Without limiting the general nature of the previous
               sentence, the Province does not represent or warrant that:
             </Text>
-            <Text style={[style.bodyText, { marginTop: 10 }]}>(a) BC Wallet will be available;</Text>
+            <Text style={[style.bodyText, { marginTop: 10 }]}>(a) NS Wallet will be available;</Text>
             <Text style={[style.bodyText, { marginTop: 10 }]}>(b) the Content will be secure in all scenarios;</Text>
             <Text style={[style.bodyText, { marginTop: 10 }]}>
-              (c) your use of BC Wallet will be timely, uninterrupted or error free;
+              (c) your use of NS Wallet will be timely, uninterrupted or error free;
             </Text>
-            <Text style={[style.bodyText, { marginTop: 10 }]}>(d) any errors in BC Wallet will be corrected; or</Text>
+            <Text style={[style.bodyText, { marginTop: 10 }]}>(d) any errors in NS Wallet will be corrected; or</Text>
             <Text style={[style.bodyText, { marginTop: 10 }]}>
-              (e) BC Wallet will meet your expectations and requirements.
+              (e) NS Wallet will meet your expectations and requirements.
             </Text>
             <Text style={[style.bodyText, { marginTop: 10 }]}>
-              The Parties acknowledge that Apple has no warranty obligation whatsoever with respect to BC Wallet.
+              The Parties acknowledge that Apple has no warranty obligation whatsoever with respect to NS Wallet.
             </Text>
           </View>
         </View>
@@ -324,15 +324,15 @@ const Terms = () => {
               &nbsp;To the maximum extent permitted by applicable law, under no circumstances will the Province be
               liable to any person or entity for any direct, indirect, special, incidental, consequential or other loss,
               claim, injury or damage, whether foreseeable or unforeseeable (including without limitation claims for
-              damages for loss of profits or business opportunities, use or misuse of, or inability to use, BC Wallet,
+              damages for loss of profits or business opportunities, use or misuse of, or inability to use, NS Wallet,
               interruptions, deletion or corruption of files, loss of programs or information, errors, defects or
-              delays) arising out of or in any way connected with your use of BC Wallet and whether based on contract,
+              delays) arising out of or in any way connected with your use of NS Wallet and whether based on contract,
               tort, strict liability or any other legal theory. The previous sentence will apply even if the Province
               has been specifically advised of the possibility of any such loss, claim, injury or damage.
             </Text>
             <Text style={[style.bodyText, { marginTop: 20 }]}>
               The Parties acknowledge that Apple is not responsible for: (a) addressing any claims by you or any third
-              party of any nature whatsoever relating to BC Wallet; or (b) your possession and/or use of BC Wallet.
+              party of any nature whatsoever relating to NS Wallet; or (b) your possession and/or use of NS Wallet.
             </Text>
           </View>
         </View>
@@ -340,11 +340,11 @@ const Terms = () => {
           <Text style={style.enumeration}>14</Text>
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Intellectual Property Claims.</Text>
-            &nbsp;BC Wallet is owned by the Province or used by the Province under license. The Parties acknowledge
-            that, in the event of any third-party claim that BC Wallet or your possession and/or use of BC Wallet
+            &nbsp;NS Wallet is owned by the Province or used by the Province under license. The Parties acknowledge
+            that, in the event of any third-party claim that NS Wallet or your possession and/or use of NS Wallet
             infringes that third party’s intellectual property rights, the Province, and not Apple, is solely
             responsible for the investigation, defence, settlement and discharge of any such claim. In the event of any
-            such claim, the Province reserves the right to replace any portion of BC Wallet that allegedly infringes a
+            such claim, the Province reserves the right to replace any portion of NS Wallet that allegedly infringes a
             third party’s intellectual property rights.
           </Text>
         </View>
@@ -355,18 +355,18 @@ const Terms = () => {
             &nbsp;You agree to indemnify, defend and hold harmless the Province and all of its respective servants,
             employees and agents from and against all claims, demands, obligations, losses, liabilities, costs or debt,
             and expenses (including but not limited to reasonable legal fees) arising from or related to: (a) your use
-            of BC Wallet (b) your Content; or (c) your violation of any provision of this EULA.
+            of NS Wallet (b) your Content; or (c) your violation of any provision of this EULA.
           </Text>
         </View>
         <View style={style.paragraph}>
           <Text style={style.enumeration}>16</Text>
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Privacy.</Text>
-            &nbsp;If you visit the website for BC Wallet at{' '}
+            &nbsp;If you visit the website for NS Wallet at{' '}
             <Text style={style.link} onPress={useCallback(() => openLink(bcWalletHomeUrl), [])}>
               {bcWalletHomeUrl}
             </Text>{' '}
-            including to access the ‘help’ feature for BC Wallet or related content at{' '}
+            including to access the ‘help’ feature for NS Wallet or related content at{' '}
             <Text style={style.link} onPress={useCallback(() => openLink(digitalTrustHomeUrl), [])}>
               {digitalTrustHomeUrl}
             </Text>
@@ -374,12 +374,12 @@ const Terms = () => {
             <Text style={style.link} onPress={useCallback(() => openLink(bcWebPrivacyUrl), [])}>
               Province’s Privacy Statement for government websites
             </Text>{' '}
-            Certain information is also collected by BC Wallet as outlined in the{' '}
+            Certain information is also collected by NS Wallet as outlined in the{' '}
             <Text style={style.link} onPress={useCallback(() => openLink(digitalWalletPrivacyUrl), [])}>
-              BC Wallet App Privacy Policy
+              NS Wallet App Privacy Policy
             </Text>{' '}
             (the “Privacy Policy”), which is incorporated by reference into and forms part of this EULA. You consent to
-            the collection by BC Wallet of this information which, along with your Content, is stored locally on your
+            the collection by NS Wallet of this information which, along with your Content, is stored locally on your
             device and is not accessible to the Province except in circumstances where you choose to provide information
             to the Province, as outlined in the Privacy Policy. Any information you provide to the Province that is
             “personal information”, as defined in the BC Freedom of Information and Protection of Privacy Act (the
@@ -395,7 +395,7 @@ const Terms = () => {
           <Text style={style.enumeration}>17</Text>
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Third Party Web Sites.</Text>
-            &nbsp;You acknowledge that: (a) BC Wallet may include links to third party web sites; (b) when you link to a
+            &nbsp;You acknowledge that: (a) NS Wallet may include links to third party web sites; (b) when you link to a
             third party web site, you may be subject to the terms of use and/or the privacy policy, if any, of that
             third party web site; and (c) the Province does not endorse the content of any third party web sites and is
             not responsible for the terms of use, privacy policies, practices or content of any third party web site.
@@ -406,9 +406,9 @@ const Terms = () => {
           <Text style={style.enumeration}>18</Text>
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Third Party Terms of Agreement.</Text>
-            &nbsp;You may require the use of third party services in order to use BC Wallet (including wireless data
+            &nbsp;You may require the use of third party services in order to use NS Wallet (including wireless data
             services), and you agree to comply with any applicable third party terms of service that apply to you when
-            using BC Wallet.
+            using NS Wallet.
           </Text>
         </View>
         <View style={style.paragraph}>
@@ -425,8 +425,8 @@ const Terms = () => {
           <Text style={style.bodyText}>
             <Text style={style.titleText}>Changes to Licensed Application and/or Terms.</Text>
             &nbsp;The Province may at any time, in its sole discretion and without direct notice to you: (a) discontinue
-            BC Wallet; or (b) make changes to BC Wallet and/or this EULA, including the Privacy Policy. By continuing to
-            use BC Wallet, you will be conclusively deemed to have accepted any such changes.
+            NS Wallet; or (b) make changes to NS Wallet and/or this EULA, including the Privacy Policy. By continuing to
+            use NS Wallet, you will be conclusively deemed to have accepted any such changes.
           </Text>
         </View>
         <View style={[style.paragraph, { marginBottom: 30 }]}>
@@ -438,10 +438,10 @@ const Terms = () => {
             are inserted for convenience only and will not be used in interpreting or construing any provision of this
             EULA. If any provision of this EULA is invalid, illegal or unenforceable, that provision will be severed
             from this EULA and all other provisions will remain in full force and effect. This EULA will be governed by
-            and construed in accordance with the laws of the province of British Columbia and the applicable laws of
-            Canada. By using BC Wallet, you consent to the exclusive jurisdiction and venue of the courts of the
-            province of British Columbia, sitting in Victoria, for the hearing of any dispute arising from or related to
-            this EULA and its subject matter.
+            and construed in accordance with the laws of the province of Nova Scotia and the applicable laws of Canada.
+            By using BC Wallet, you consent to the exclusive jurisdiction and venue of the courts of the province of
+            Nova Scotia, sitting in Victoria, for the hearing of any dispute arising from or related to this EULA and
+            its subject matter.
           </Text>
         </View>
       </ScrollView>

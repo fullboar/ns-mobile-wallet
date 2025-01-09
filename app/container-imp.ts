@@ -96,7 +96,7 @@ export class AppContainer implements Container {
   }
 
   public init(): Container {
-    this.log?.info(`Initializing BC Wallet App container`)
+    this.log?.info(`Initializing NS Wallet App container`)
 
     const logOptions: RemoteLoggerOptions = {
       lokiUrl: Config.REMOTE_LOGGING_URL,

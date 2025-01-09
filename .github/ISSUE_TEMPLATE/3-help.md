@@ -2,7 +2,7 @@
 name: "Help request"
 about: Let us know where you're getting stuck
 ---
-<!-- We're happy to see you're trying out BC Wallet and Bifold! Please fill in as much of the template below as you can and we'll try to help you out. -->
+<!-- We're happy to see you're trying out NS Wallet and Bifold! Please fill in as much of the template below as you can and we'll try to help you out. -->
 
 ### Description of problem
 

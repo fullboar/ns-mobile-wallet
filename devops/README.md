@@ -6,9 +6,9 @@ This directory contains the source code for supporting infrastructure components
 
 ## Loki Logstack
 
-The Loki Logstack is a set of components for gathering and storing logs temporarily, which helps with troubleshooting and analyzing issues for the BC Wallet's advanced support team.
+The Loki Logstack is a set of components for gathering and storing logs temporarily, which helps with troubleshooting and analyzing issues for the NS Wallet's advanced support team.
 
-When turned on, the BC Wallet sends its logs to the Loki Logstack through the Loki Proxy. This proxy then forwards the logs to Loki for safekeeping. To ensure security, the Loki Proxy needs proper login details. It will only accept logs from the BC Wallet if the correct credentials are provided.
+When turned on, the NS Wallet sends its logs to the Loki Logstack through the Loki Proxy. This proxy then forwards the logs to Loki for safekeeping. To ensure security, the Loki Proxy needs proper login details. It will only accept logs from the NS Wallet if the correct credentials are provided.
 
 The components to the Loki Logstack deployment are as follows:
 
@@ -66,7 +66,7 @@ bcwallet-logstack-proxy-5946c98d97-925qp   1/1     Running   0          18h
 bcwallet-logstack-proxy-5946c98d97-clzlg   1/1     Running   0          18h
 ```
 
-In addition to the pods, there will be a route created for the Loki Proxy. This route is used by the BC Wallet to send its logs to the Loki Proxy. The route can be verified with the following command:
+In addition to the pods, there will be a route created for the Loki Proxy. This route is used by the NS Wallet to send its logs to the Loki Proxy. The route can be verified with the following command:
 
 ```console
 ➜  vc-wallet-mobile oc get routes -l "app.kubernetes.io/name=logstack"
@@ -77,7 +77,7 @@ bcwallet-logstack-proxy   bcwallet-logstack-proxy-abc123-test.apps.silver.devops
 
 ### Usage
 
-To use the Loki Logstack, the BC Wallet needs to be configured to send its logs to the Loki Proxy. This is done by setting the following environment variables (in the .env):
+To use the Loki Logstack, the NS Wallet needs to be configured to send its logs to the Loki Proxy. This is done by setting the following environment variables (in the .env):
 
 | Variable Name      | Description                                                |
 | ------------------ | ---------------------------------------------------------- |
@@ -101,5 +101,5 @@ Get and updated timestamp:
 Send a sample log with the updated timestamp:
 
 ```bash
-curl -v -H "Content-Type: application/json" -H "Authorization: Basic Base64-Encoded-USERNAME:PASSWORD" -X POST "https://bcwallet-logstack-proxy-caZZZZ-dev.apps.silver.devops.gov.bc.ca/loki/api/v1/push" --data-raw '{"streams":[{"stream":{"job":"react-native-logs","level":"debug","application":"bc wallet","version":"1.0.1-444","system":"iOS v16.7.4","session_id":"463217"},"values":[["1734028898448000000","{\"message\":\"Successfully connected to WebSocket wss://aries-mediator-agent.blah.gov.bc.ca\"}"]]}]}'
+curl -v -H "Content-Type: application/json" -H "Authorization: Basic Base64-Encoded-USERNAME:PASSWORD" -X POST "https://bcwallet-logstack-proxy-caZZZZ-dev.apps.silver.devops.gov.bc.ca/loki/api/v1/push" --data-raw '{"streams":[{"stream":{"job":"react-native-logs","level":"debug","application":"ns wallet","version":"1.0.1-444","system":"iOS v16.7.4","session_id":"463217"},"values":[["1734028898448000000","{\"message\":\"Successfully connected to WebSocket wss://aries-mediator-agent.blah.gov.bc.ca\"}"]]}]}'
 ```

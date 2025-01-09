@@ -11,7 +11,7 @@
 
 ## Prerequisite software
 
-Before you can proceed with building and testing the BC Wallet app, you must install and configure the following products on your development machine:
+Before you can proceed with building and testing the NS Wallet app, you must install and configure the following products on your development machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org) & [npm](https://docs.npmjs.com/cli/) - (version specified in the `engines` field
@@ -38,7 +38,7 @@ First clone this repository:
 # Clone your GitHub repository:
 git clone https://github.com/bcgov/bc-wallet-mobile.git
 
-# Go to the BC Wallet directory:
+# Go to the NS Wallet directory:
 cd bc-wallet-mobile
 ```
 
@@ -50,10 +50,10 @@ Following along, you should end up using Android SDK Platform 33 with Android 13
 
 ## Installing npm modules and pods
 
-Next, install the npm modules needed to build and test BC Wallet from the root of the repository:
+Next, install the npm modules needed to build and test NS Wallet from the root of the repository:
 
 ```sh
-# Install BC Wallet project dependencies (package.json) from the root of the cloned repository
+# Install NS Wallet project dependencies (package.json) from the root of the cloned repository
 yarn install
 ```
 
@@ -64,7 +64,7 @@ To install pod dependencies:
    yarn run ios:setup
 ```
 
-To work on changes to BC Wallet in Bifold (the underlying Aries project) you will also need to do the following:
+To work on changes to NS Wallet in Bifold (the underlying Aries project) you will also need to do the following:
 
 ```sh
 # from bc-wallet-mobile

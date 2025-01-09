@@ -52,7 +52,7 @@ const useInitializeBCAgent = () => {
 
       const options = {
         config: {
-          label: store.preferences.walletName || 'BC Wallet',
+          label: store.preferences.walletName || 'NS Wallet',
           walletConfig: {
             id: walletSecret.id,
             key: walletSecret.key,
