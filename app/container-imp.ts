@@ -46,7 +46,7 @@ import AddCredentialSlider from './src/components/AddCredentialSlider'
 import EmptyList from './src/components/EmptyList'
 import HomeFooterView from './src/components/HomeFooterView'
 import HomeHeaderView from './src/components/HomeHeaderView'
-import { AttestationRestrictions, autoDisableRemoteLoggingIntervalInMinutes } from './src/constants'
+import { autoDisableRemoteLoggingIntervalInMinutes } from './src/constants'
 import { activate, deactivate, setup, status } from './src/helpers/PushNotificationsHelper'
 import { expirationOverrideInMinutes } from './src/helpers/utils'
 import { useNotifications } from './src/hooks/notifications'
@@ -56,10 +56,9 @@ import { pages } from './src/screens/OnboardingPages'
 import Preface from './src/screens/Preface'
 import Splash from './src/screens/Splash'
 import Terms, { TermsVersion } from './src/screens/Terms'
-import { AttestationMonitor, allCredDefIds } from './src/services/attestation'
+
 import { BCLocalStorageKeys, BCState, IASEnvironment, RemoteDebuggingState, Unified, initialState } from './src/store'
 
-const attestationCredDefIds = allCredDefIds(AttestationRestrictions)
 const helpLink = 'https://www2.gov.bc.ca/gov/content/governments/government-id/bc-wallet/help'
 
 export interface AppState {
@@ -112,11 +111,6 @@ export class AppContainer implements Container {
     const logger = new RemoteLogger(logOptions)
     logger.startEventListeners()
 
-    const options = {
-      shouldHandleProofRequestAutomatically: true,
-    }
-
-    this._container.registerInstance(TOKENS.UTIL_ATTESTATION_MONITOR, new AttestationMonitor(logger, options))
     // Here you can register any component to override components in core package
     // Example: Replacing button in core with custom button
     this._container.registerInstance(TOKENS.SCREEN_PREFACE, Preface)
@@ -214,10 +208,9 @@ export class AppContainer implements Container {
       showScanHelp: true,
       showScanButton: true,
       showDetailsInfo: true,
-      contactHideList: ['BCAttestationService'],
       proofTemplateBaseUrl: Config.PROOF_TEMPLATE_URL,
       // Credential Definition IDs
-      credentialHideList: attestationCredDefIds,
+
       enablePushNotifications: {
         status: status,
         setup: setup,

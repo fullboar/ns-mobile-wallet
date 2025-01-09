@@ -34,10 +34,10 @@ const useInitializeBCAgent = () => {
   const { setAgent } = useAgent()
   const [store, dispatch] = useStore<BCState>()
   const { walletSecret } = useAuth()
-  const [logger, indyLedgers, attestationMonitor, credDefs, schemas] = useServices([
+  const [logger, indyLedgers, credDefs, schemas] = useServices([
     TOKENS.UTIL_LOGGER,
     TOKENS.UTIL_LEDGERS,
-    TOKENS.UTIL_ATTESTATION_MONITOR,
+
     TOKENS.CACHE_CRED_DEFS,
     TOKENS.CACHE_SCHEMAS,
   ])
@@ -187,16 +187,11 @@ const useInitializeBCAgent = () => {
 
     logger.info('Creating link secret if required...')
     await createLinkSecretIfRequired(newAgent)
-    
+
     if (store.preferences.usePushNotifications) {
       logger.info('Activating push notifications...')
       activate(newAgent)
     }
-    
-    // In case the old attestationMonitor is still active, stop it and start a new one
-    logger.info('Starting attestation monitor...')
-    attestationMonitor?.stop()
-    attestationMonitor?.start(newAgent)
 
     logger.info('Setting new agent...')
     setAgent(newAgent)
@@ -211,7 +206,6 @@ const useInitializeBCAgent = () => {
     walletSecret,
     logger,
     indyLedgers,
-    attestationMonitor,
   ])
 
   return { initializeAgent }
