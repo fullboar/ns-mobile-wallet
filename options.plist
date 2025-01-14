@@ -16,7 +16,7 @@
 	<true/>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>ca.bc.gov.BCWallet</key>
+		<key>ca.fullboar.NSWallet</key>
 		<string>54378f79-6c99-404d-a89f-40dfd1f232b5</string>
 	</dict>
 </dict>

@@ -556,7 +556,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.bc.gov.BCWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.fullboar.NSWallet;
 				PRODUCT_NAME = BCWallet;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -595,7 +595,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ca.bc.gov.BCWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.fullboar.NSWallet;
 				PRODUCT_NAME = BCWallet;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
