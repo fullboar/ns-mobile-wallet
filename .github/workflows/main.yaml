@@ -389,7 +389,7 @@ jobs:
           GOOGLE_API_CREDENTIALS_BASE64: ${{ secrets.GOOGLE_API_CREDENTIALS_BASE64 }}
           GOOGLE_API_CREDENTIALS: "api_keys.json"
           ANDROID_BUNDLE_PATH: "./android/app/build/outputs/bundle/release/app-release.aab"
-          ANDROID_PACKAGE_NAME: "ca.bc.gov.BCWallet"
+          ANDROID_PACKAGE_NAME: "ca.fullboar.NSWallet"
           VERSION_CODE: ${{ env.appBuildNumber }}
           VERSION_NAME: ${{ env.appBuildVersion }}
         run: |
