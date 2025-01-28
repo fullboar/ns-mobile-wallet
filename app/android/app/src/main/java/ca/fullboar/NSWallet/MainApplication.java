@@ -1,4 +1,4 @@
-package ca.bc.gov.BCWallet;
+package ca.fullboar.NSWallet;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
