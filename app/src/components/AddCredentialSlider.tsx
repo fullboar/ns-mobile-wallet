@@ -6,7 +6,7 @@ import { DeviceEventEmitter, Modal, StyleSheet, Text, TouchableOpacity, View } f
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 import { hitSlop } from '../constants'
-import { BCWalletEventTypes } from '../events/eventTypes'
+import { NSWalletEventTypes } from '../events/eventTypes'
 
 export default function AddCredentialSlider() {
   const { ColorPallet, TextTheme } = useTheme()
@@ -61,7 +61,7 @@ export default function AddCredentialSlider() {
   })
 
   const deactivateSlider = useCallback(() => {
-    DeviceEventEmitter.emit(BCWalletEventTypes.ADD_CREDENTIAL_PRESSED, false)
+    DeviceEventEmitter.emit(NSWalletEventTypes.ADD_CREDENTIAL_PRESSED, false)
   }, [])
 
   const goToScanScreen = useCallback(() => {
@@ -70,7 +70,7 @@ export default function AddCredentialSlider() {
   }, [deactivateSlider, navigation])
 
   useEffect(() => {
-    const handle = DeviceEventEmitter.addListener(BCWalletEventTypes.ADD_CREDENTIAL_PRESSED, (value?: boolean) => {
+    const handle = DeviceEventEmitter.addListener(NSWalletEventTypes.ADD_CREDENTIAL_PRESSED, (value?: boolean) => {
       const newVal = value === undefined ? !addCredentialPressed : value
       setAddCredentialPressed(newVal)
     })

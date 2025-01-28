@@ -29,7 +29,7 @@ import Toast from 'react-native-toast-message'
 import { container } from 'tsyringe'
 
 import { AppContainer, AppState } from './container-imp'
-import bcwallet from './src'
+import nswallet from './src'
 import { credentialOfferTourSteps } from './src/components/tours/CredentialOfferTourSteps'
 import { credentialsTourSteps } from './src/components/tours/CredentialsTourSteps'
 import { homeTourSteps } from './src/components/tours/HomeTourSteps'
@@ -38,7 +38,7 @@ import { surveyMonkeyUrl, surveyMonkeyExitUrl } from './src/constants'
 import WebDisplay from './src/screens/WebDisplay'
 import { initialState, reducer } from './src/store'
 
-const { theme, localization } = bcwallet
+const { theme, localization } = nswallet
 
 initLanguages(localization)
 
@@ -79,7 +79,7 @@ const App = () => {
                         translucent={false}
                       />
                       <NetInfo />
-                      <ErrorModal enableReport/>
+                      <ErrorModal enableReport />
                       <WebDisplay
                         destinationUrl={surveyMonkeyUrl}
                         exitUrl={surveyMonkeyExitUrl}

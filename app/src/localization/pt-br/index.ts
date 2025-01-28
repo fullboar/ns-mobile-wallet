@@ -121,8 +121,8 @@ const translation = {
   "Settings": {
     "Help": "Help (PT-BR)",
     "MoreInformation": "More Information (PT-BR)",
-    "PlayWithBCWallet": "Play with NS Wallet (PT-BR)",
-    "HelpUsingBCWallet": "Help using NS Wallet (PT-BR)",
+    "PlayWithNSWallet": "Play with NS Wallet (PT-BR)",
+    "HelpUsingNSWallet": "Help using NS Wallet (PT-BR)",
     "GiveFeedback": "Give feedback (PT-BR)",
     "ReportAProblem": "Report a problem (PT-BR)",
     "TermsOfUse": "Terms of use (PT-BR)",
