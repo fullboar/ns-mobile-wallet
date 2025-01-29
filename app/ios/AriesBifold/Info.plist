@@ -25,7 +25,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>bcwallet</string>
+				<string>nswallet</string>
 			</array>
 		</dict>
 		<dict>

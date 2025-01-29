@@ -55,7 +55,7 @@ const translation = {
     "DigitalCredentialsHeading": "Digital credentials (PT-BR)",
     "DigitalCredentialsParagraph": "Digital credentials are the electronic equivalent of physical credentials such as certifications and permits offered by participating services.\n\nServices are simplified and expedited as organisations and individuals can confirm who you are with trusted information from digital credentials. (PT-BR)",
     "PrivateConfidentialHeading": "Private and confidential (PT-BR)",
-    "PrivateConfidentialParagraph": "Your privacy is important.\n\nThe B.C. government doesn't know when you use digital credentials, unless you're interacting with them. No analytics are recorded.\n\nYou approve every use of your digital credentials, and only provide the information that’s needed. (PT-BR)",
+    "PrivateConfidentialParagraph": "Your privacy is important.\n\nThe N.S. government doesn't know when you use digital credentials, unless you're interacting with them. No analytics are recorded.\n\nYou approve every use of your digital credentials, and only provide the information that’s needed. (PT-BR)",
     "GetStarted": "Get Started (PT-BR)",
   },
   "Preface": {
@@ -121,8 +121,8 @@ const translation = {
   "Settings": {
     "Help": "Help (PT-BR)",
     "MoreInformation": "More Information (PT-BR)",
-    "PlayWithBCWallet": "Play with NS Wallet (PT-BR)",
-    "HelpUsingBCWallet": "Help using NS Wallet (PT-BR)",
+    "PlayWithNSWallet": "Play with NS Wallet (PT-BR)",
+    "HelpUsingNSWallet": "Help using NS Wallet (PT-BR)",
     "GiveFeedback": "Give feedback (PT-BR)",
     "ReportAProblem": "Report a problem (PT-BR)",
     "TermsOfUse": "Terms of use (PT-BR)",

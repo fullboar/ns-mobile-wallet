@@ -152,9 +152,9 @@ export class AppContainer implements Container {
           },
           data: [
             {
-              title: this.t('Settings.HelpUsingBCWallet'),
-              accessibilityLabel: this.t('Settings.HelpUsingBCWallet'),
-              testID: testIdWithKey('HelpUsingBCWallet'),
+              title: this.t('Settings.HelpUsingNSWallet'),
+              accessibilityLabel: this.t('Settings.HelpUsingNSWallet'),
+              testID: testIdWithKey('HelpUsingNSWallet'),
               onPress: () => Linking.openURL(helpLink),
             },
             {
@@ -190,9 +190,9 @@ export class AppContainer implements Container {
               onPress: () => this.navigate(Stacks.SettingStack as never, { screen: Screens.Onboarding } as never),
             },
             {
-              title: this.t('Settings.PlayWithBCWallet'),
-              accessibilityLabel: this.t('Settings.PlayWithBCWallet'),
-              testID: testIdWithKey('PlayWithBCWallet'),
+              title: this.t('Settings.PlayWithNSWallet'),
+              accessibilityLabel: this.t('Settings.PlayWithNSWallet'),
+              testID: testIdWithKey('PlayWithNSWallet'),
               onPress: () => Linking.openURL('https://digital.gov.bc.ca/digital-trust/showcase/'),
             },
           ],

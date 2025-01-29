@@ -3,13 +3,13 @@ import React, { useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
 import { DeviceEventEmitter } from 'react-native'
 
-import { BCWalletEventTypes } from '../events/eventTypes'
+import { NSWalletEventTypes } from '../events/eventTypes'
 
 const AddCredentialButton = () => {
   const { t } = useTranslation()
 
   const activateSlider = useCallback(() => {
-    DeviceEventEmitter.emit(BCWalletEventTypes.ADD_CREDENTIAL_PRESSED, true)
+    DeviceEventEmitter.emit(NSWalletEventTypes.ADD_CREDENTIAL_PRESSED, true)
   }, [])
 
   return (

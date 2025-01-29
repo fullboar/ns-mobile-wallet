@@ -55,7 +55,7 @@ const translation = {
     "DigitalCredentialsHeading": "Digital credentials",
     "DigitalCredentialsParagraph": "Digital credentials are the electronic equivalent of physical credentials such as certifications and permits offered by participating services.\n\nServices are simplified and expedited as organizations and individuals can confirm who you are with trusted information from digital credentials.",
     "PrivateConfidentialHeading": "Private and confidential",
-    "PrivateConfidentialParagraph": "Your privacy is important.\n\nThe B.C. government doesn't know when you use digital credentials, unless you're interacting with them. No analytics are recorded.\n\nYou approve every use of your digital credentials, and only provide the information that's needed.",
+    "PrivateConfidentialParagraph": "Your privacy is important.\n\nThe N.S. government doesn't know when you use digital credentials, unless you're interacting with them. No analytics are recorded.\n\nYou approve every use of your digital credentials, and only provide the information that's needed.",
     "GetStarted": "Get Started",
   },
   "Preface": {
@@ -116,8 +116,8 @@ const translation = {
   "Settings": {
     "Help": "Help",
     "MoreInformation": "More Information",
-    "PlayWithBCWallet": "Play with NS Wallet",
-    "HelpUsingBCWallet": "Help using NS Wallet",
+    "PlayWithNSWallet": "Play with NS Wallet",
+    "HelpUsingNSWallet": "Help using NS Wallet",
     "GiveFeedback": "Give feedback",
     "ReportAProblem": "Report a problem",
     "TermsOfUse": "Terms of use",

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { Text, View, DeviceEventEmitter } from 'react-native'
 
 import EmptyWallet from '../assets/img/emptyWallet.svg'
-import { BCWalletEventTypes } from '../events/eventTypes'
+import { NSWalletEventTypes } from '../events/eventTypes'
 export interface EmptyListProps {
   message?: string
 }
@@ -15,7 +15,7 @@ const EmptyList = ({ message }: EmptyListProps) => {
   const [addCredentialPressed, setAddCredentialPressed] = useState<boolean>(false)
 
   useEffect(() => {
-    const handle = DeviceEventEmitter.addListener(BCWalletEventTypes.ADD_CREDENTIAL_PRESSED, (value?: boolean) => {
+    const handle = DeviceEventEmitter.addListener(NSWalletEventTypes.ADD_CREDENTIAL_PRESSED, (value?: boolean) => {
       const newVal = value === undefined ? !addCredentialPressed : value
       setAddCredentialPressed(newVal)
     })
@@ -25,7 +25,7 @@ const EmptyList = ({ message }: EmptyListProps) => {
   }, [addCredentialPressed])
 
   const addCredentialPress = useCallback(() => {
-    DeviceEventEmitter.emit(BCWalletEventTypes.ADD_CREDENTIAL_PRESSED, !addCredentialPressed)
+    DeviceEventEmitter.emit(NSWalletEventTypes.ADD_CREDENTIAL_PRESSED, !addCredentialPressed)
   }, [addCredentialPressed])
 
   return (
