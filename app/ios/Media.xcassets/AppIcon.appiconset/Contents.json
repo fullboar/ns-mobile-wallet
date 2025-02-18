@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "iTunesArtwork.png",
+      "filename" : "Artowrk.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +13,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "iTunesArtwork_Dark.png",
+      "filename" : "DarkArtwork.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -25,7 +25,7 @@
           "value" : "tinted"
         }
       ],
-      "filename" : "iTunesArtwork_Tinted.png",
+      "filename" : "TintedArtwork.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
